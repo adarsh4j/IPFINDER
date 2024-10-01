@@ -1,0 +1,51 @@
+.container{
+    background-image: url(/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1900px;
+    height: 900px;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+  }
+  .container h1{
+    text-align: center;
+    margin-left: -1011px;
+    margin-top: 166px;
+  }
+ 
+.card {
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 8px;
+    height: 450px;
+    width: 400px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(30, 28, 26);
+    text-align: center;
+    box-shadow: 0 0 80px -10px black;
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+.card-blur {
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 1px);
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+}
+
+.card:hover .card-blur {
+    opacity: 0.6;
+}
